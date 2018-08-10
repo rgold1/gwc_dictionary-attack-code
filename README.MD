@@ -10,10 +10,10 @@
  2. Our user is lazy, so they created their password by selecting one of
  the 1000 most common words in the English language, capitalizing a random
  letter, and converting another letter to a number based on the following:
-   -an "a" can be converted to a 4
-   -an "e" can be converted to a 3
-   -an "o" can be converted to a 0
-   -an "i" can be converted to a 1
+   - an "a" can be converted to a 4
+   - an "e" can be converted to a 3
+   - an "o" can be converted to a 0
+   - an "i" can be converted to a 1
  So, each password has exactly one capital letter and exactly one number.
 
 ### 1. Get the code
@@ -56,31 +56,31 @@ with that output
 3. Try running your password attack again on this new myHashedPassword
 
 ## Questions to Consider
--What passwords are crackable?
--What passwords aren't?
--Are the following passwords crackable:
-  -b4Nk
-  -b3causE
-  -c3ll
-  -billion
-  -Language
--How would you modify your program to crack any of the uncrackable passwords above?
--How would you modify your program to crack passwords like "li9hT",
+- What passwords are crackable?
+- What passwords aren't?
+- Are the following passwords crackable:
+  - b4Nk
+  - b3causE
+  - c3ll
+  - billion
+  - Language
+- How would you modify your program to crack any of the uncrackable passwords above?
+- How would you modify your program to crack passwords like "li9hT",
 "Ma9azine", and "pRo9ram"? What about passwords like "so1diEr", "nEar1y",
 and "suCcessfu1"?
--Suppose the user were smarter, and made every character that could be
+- Suppose the user were smarter, and made every character that could be
 converted to a number that number (e.g. "b4n4n4", "m3l0n", "str4wb3rry").
 How would you crack these passwords?
--CHALLENGE: Now say the user was required to have a special character in their
+- CHALLENGE: Now say the user was required to have a special character in their
 password. The user is still lazy, and a) only includes one special character
 in their password, and b) uses only #, !, or $ as their character. How might
 you write code to crack this password? Try cracking the following passwords if
 you think you've written something that works:
-  -b4Ll!
-  -s$t0rE
-  -W0r#ld
-  -wOnd3r$
-  -#w0mAn
+  - b4Ll!
+  - s$t0rE
+  - W0r#ld
+  - wOnd3r$
+  - #w0mAn
 
 #### Credits
 Project by Will Rivitz, README by Rebecca Gold
