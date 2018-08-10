@@ -49,8 +49,11 @@ python passwordentry.py < [the file from step 4]
 ```
 
 ### 6. Try using your own password!
-1. replace "#a string of your choice" in hasher.py with whatever
-password you want to use, and run `python hasher.py` in a command prompt.
+1. replace "#a string of your choice" in `hasher.py` with whatever
+password you want to use, and run:
+```
+python hasher.py
+```
 2. copy the entire output (including the b and both single-quotes)
 and replace the current value of myHashedPassword in `passwordentry.py`
 with that output
