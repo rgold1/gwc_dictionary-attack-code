@@ -14,7 +14,8 @@
    - an "e" can be converted to a 3
    - an "o" can be converted to a 0
    - an "i" can be converted to a 1
- So, each password has exactly one capital letter and exactly one number.
+   
+   So, each password has exactly one capital letter and exactly one number.
 
 ### 1. Get the code
 In a command prompt, `cd` into a folder of your choice (wherever you would like to save the code for this activity). Then run:
